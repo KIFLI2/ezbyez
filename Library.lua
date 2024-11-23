@@ -123,7 +123,7 @@ do
         warn(I)
     end
 end
-local J = p("ScreenGui", g, {Name = "Speed Hub X Lib V3"}, {p("UIScale", {Scale = l, Name = "Scale"})})
+local J = p("ScreenGui", g, {Name = "Ducks Private"}, {p("UIScale", {Scale = l, Name = "Scale"})})
 local K = g:FindFirstChild(J.Name)
 if K and K ~= J then
     K:Destroy()
