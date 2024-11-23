@@ -38,7 +38,8 @@ local j = {
     Options = {},
     Flags = {},
     Tabs = {},
-    Icons = loadstring(game:HttpGet("https://raw.githubusercontent.com/KIFLI2/ezbyez/main/Library.lua"))()
+    Icons = loadstring(game:HttpGet("https://raw.githubusercontent.com/AhmadV99/Main/main/Icons.lua"))()
+}
 local k = workspace.CurrentCamera.ViewportSize
 local l = k.Y / 450
 local m, n, o, p
@@ -122,7 +123,7 @@ do
         warn(I)
     end
 end
-local J = p("ScreenGui", g, {Name = "Ducks Private"}, {p("UIScale", {Scale = l, Name = "Scale"})})
+local J = p("ScreenGui", g, {Name = "Speed Hub X Lib V3"}, {p("UIScale", {Scale = l, Name = "Scale"})})
 local K = g:FindFirstChild(J.Name)
 if K and K ~= J then
     K:Destroy()
