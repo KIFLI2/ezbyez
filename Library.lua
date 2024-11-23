@@ -38,7 +38,7 @@ local j = {
     Options = {},
     Flags = {},
     Tabs = {},
-    Icons = https://raw.githubusercontent.com/KIFLI2/ezbyez/refs/heads/main/Library.lua
+    Icons = loadstring(game:HttpGet("https://raw.githubusercontent.com/KIFLI2/ezbyez/main/Library.lua"))()
 }
 local k = workspace.CurrentCamera.ViewportSize
 local l = k.Y / 450
