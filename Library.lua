@@ -38,7 +38,7 @@ local j = {
     Options = {},
     Flags = {},
     Tabs = {},
-    Icons = 
+    Icons = https://raw.githubusercontent.com/KIFLI2/ezbyez/refs/heads/main/Library.lua
 }
 local k = workspace.CurrentCamera.ViewportSize
 local l = k.Y / 450
